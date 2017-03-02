@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/epsilon-communities">
+        <exclude pattern="/apps/epsilon-communities/install" />
+    </filter>
+    <filter root="/apps/social/console/components/hbs/sitepage/sitepage.hbs" />
+    <filter root="/etc/designs/epsilon-communities"/>
+    <filter root="/etc/community/templates/sites/custom/epsilon-communities"/>
+</workspaceFilter>

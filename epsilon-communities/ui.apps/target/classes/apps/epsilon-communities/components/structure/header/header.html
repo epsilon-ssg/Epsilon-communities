@@ -1,0 +1,33 @@
+<!--/*
+    Copyright 2016 Adobe Systems Incorporated
+  
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+  
+        http://www.apache.org/licenses/LICENSE-2.0
+  
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+*/-->
+<sly data-sly-use.header="header.js">
+    <div class="navbar navbar-inverse navbar-fixed-top hidden-xs">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#" data-toggle="modal" data-target=".we-LanguageModal" title="${header.currentLanguage.name}"><i class="we-lang-icon we-lang-icon-${header.currentLanguage.countrycode}"></i> ${header.currentLanguage.languagecode}</a></li>
+            </ul>
+           <ul class="nav navbar-nav navbar-right">
+                <li class="we-retail-not-anonymous hidden-header"><a href="${header.profilePath}.html"><img class="avatar-header we-retail-not-anonymous" id="header-avatar" src="" alt="" title="">Profile</a></li>
+                <li class="we-retail-not-anonymous hidden-header"><a href="${header.messagingPath}.html"><i class="fa fa-envelope-o"></i> Messages <span class="badge">0</span></a></li>
+                <li class="we-retail-not-anonymous hidden-header"><a href="${header.notificationPath}.html"><i class="fa fa-flag-o"></i> Notifications <span class="badge" id="scf-js-notificationsUnreadCount" data-siteurl="/content/we-retail/community/en">0</span></a></li>
+                <li class="we-retail-anonymous hidden-header"><a href="#" data-toggle="modal" data-target=".we-SignInModal">Login</a></li>
+                <li class="we-retail-not-anonymous hidden-header"><a href="/system/sling/logout.html?resource=${header.currentPath}.html">Log out</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+</sly>

@@ -1,0 +1,6 @@
+com\communities\epsilon_communities\core\package-info.class
+com\communities\epsilon_communities\core\models\HelloWorldModel.class
+com\communities\epsilon_communities\core\servlets\SimpleServlet.class
+com\communities\epsilon_communities\core\listeners\SimpleResourceListener.class
+com\communities\epsilon_communities\core\schedulers\SimpleScheduledTask.class
+com\communities\epsilon_communities\core\filters\LoggingFilter.class
